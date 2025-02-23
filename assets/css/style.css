@@ -18,23 +18,16 @@ body {
 body::before  {
   content: "";
   position: fixed;
-<<<<<<< HEAD
   background: url('../img/background/chat.webp') no-repeat center center;
-=======
-  background: url('../img/background/bg7.jpg') no-repeat center center;
->>>>>>> 32a6fe507abad1b704804db22ab6718a3740c559
   background-size: cover;
   opacity: 1;  /* Ensure it's fully visible */
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
-<<<<<<< HEAD
   z-index: -1;
   filter: brightness(20%); /* Adjust this value (0% - 100%) */
-=======
   z-index: -1; /* Ensures content appears above the background */
->>>>>>> 32a6fe507abad1b704804db22ab6718a3740c559
 }
 
 @media (min-width: 1024px) {
